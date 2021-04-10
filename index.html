@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OverGrowth</title>
+    <meta name="facebook-domain-verification" content="yu4yl4kzqydrsdbsgorx5lnwvhn2nh" />
+    <link rel="shortcut icon" href="static\images\favicon.svg"/>
+    <META NAME="Description" CONTENT="OverGrowth">
+    <a href="https://api.whatsapp.com/send?phone=5521983330400&text=Olá, gostaria de falar um pouco sobre minha empresa e saber como vocês podem me ajudar." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>     
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="static\css\style.css">
+    <link rel="stylesheet" href="static/css/form.css">
+    <link rel="stylesheet" href="static/css/timeline.css"> -->
+
+    <!--JS-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+    <script src="https://kit.fontawesome.com/4e4f2d20dd.js" crossorigin="anonymous"></script>
+
+    <!--FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!--Polyfills-->
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '4215827438429685');
+      fbq('track', 'PageView');
+      </script>
+        <noscript><img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=4215827438429685&ev=PageView&noscript=1"/>
+        </noscript>
+    <!-- End Facebook Pixel Code -->
+
+  <style amp-custom>
+    html {
+  scroll-behavior: smooth;
+  }
+  .main-timeline{position:relative}.main-timeline:before{content:"";width:5px;height:100%;border-radius:20px;margin:0 auto;background:#242922;position:absolute;top:0;left:0;right:0}.main-timeline .timeline{display:inline-block;margin-bottom:50px;position:relative}.main-timeline .timeline:before{content:"";width:20px;height:20px;border-radius:50%;border:4px solid #fff;background:#ec496e;position:absolute;top:50%;left:50%;z-index:1;transform:translate(-50%,-50%)}.main-timeline .timeline-icon{display:inline-block;width:130px;height:130px;border-radius:50%;border:3px solid #ec496e;padding:13px;text-align:center;position:absolute;top:50%;left:30%;transform:translateY(-50%)}.main-timeline .timeline-icon i{display:block;border-radius:50%;background:#ec496e;font-size:64px;color:#fff;line-height:100px;z-index:1;position:relative}.main-timeline .timeline-icon:after,.main-timeline .timeline-icon:before{content:"";width:100px;height:4px;background:#ec496e;position:absolute;top:50%;right:-100px;transform:translateY(-50%)}.main-timeline .timeline-icon:after{width:70px;height:50px;background:rgba(255,255,255,0);top:89px;right:-30px}.main-timeline .timeline-content{width:50%;padding:0 50px;margin:52px 0 0;float:right;position:relative}.main-timeline .timeline-content:before{content:"";width:70%;height:100%;border:3px solid #ec496e;border-top:none;border-right:none;position:absolute;bottom:-13px;left:35px}.main-timeline .timeline-content:after{content:"";width:37px;height:3px;background:#ec496e;position:absolute;top:13px;left:0}.main-timeline .title{font-size:20px;font-weight:600;color:#ec496e;text-transform:uppercase;margin:0 0 5px}.main-timeline .description{display:inline-block;font-size:16px;color:#404040;line-height:20px;letter-spacing:1px;margin:0}.main-timeline .timeline:nth-child(even) .timeline-icon{left:auto;right:30%}.main-timeline .timeline:nth-child(even) .timeline-icon:before{right:auto;left:-100px}.main-timeline .timeline:nth-child(even) .timeline-icon:after{right:auto;left:-30px}.main-timeline .timeline:nth-child(even) .timeline-content{float:left}.main-timeline .timeline:nth-child(even) .timeline-content:before{left:auto;right:35px;transform:rotateY(180deg)}.main-timeline .timeline:nth-child(even) .timeline-content:after{left:auto;right:0}.main-timeline .timeline:nth-child(2n) .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-icon i,.main-timeline .timeline:nth-child(2n) .timeline-icon:before,.main-timeline .timeline:nth-child(2n):before{background:#f9850f}.main-timeline .timeline:nth-child(2n) .timeline-icon{border-color:#f9850f}.main-timeline .timeline:nth-child(2n) .title{color:#f9850f}.main-timeline .timeline:nth-child(2n) .timeline-content:before{border-left-color:#f9850f;border-bottom-color:#f9850f}.main-timeline .timeline:nth-child(3n) .timeline-content:after,.main-timeline .timeline:nth-child(3n) .timeline-icon i,.main-timeline .timeline:nth-child(3n) .timeline-icon:before,.main-timeline .timeline:nth-child(3n):before{background:#8fb800}.main-timeline .timeline:nth-child(3n) .timeline-icon{border-color:#8fb800}.main-timeline .timeline:nth-child(3n) .title{color:#8fb800}.main-timeline .timeline:nth-child(3n) .timeline-content:before{border-left-color:#8fb800;border-bottom-color:#8fb800}.main-timeline .timeline:nth-child(4n) .timeline-content:after,.main-timeline .timeline:nth-child(4n) .timeline-icon i,.main-timeline .timeline:nth-child(4n) .timeline-icon:before,.main-timeline .timeline:nth-child(4n):before{background:#2fcea5}.main-timeline .timeline:nth-child(4n) .timeline-icon{border-color:#2fcea5}.main-timeline .timeline:nth-child(4n) .title{color:#2fcea5}.main-timeline .timeline:nth-child(4n) .timeline-content:before{border-left-color:#2fcea5;border-bottom-color:#2fcea5}@media only screen and (max-width:1200px){.main-timeline .timeline-icon:before{width:50px;right:-50px}.main-timeline .timeline:nth-child(even) .timeline-icon:before{right:auto;left:-50px}.main-timeline .timeline-content{margin-top:75px}}@media only screen and (max-width:990px){.main-timeline .timeline{margin:0 0 10px}.main-timeline .timeline-icon{left:25%}.main-timeline .timeline:nth-child(even) .timeline-icon{right:25%}.main-timeline .timeline-content{margin-top:115px}}@media only screen and (max-width:767px){.main-timeline{padding-top:50px}.main-timeline:before{left:80px;right:0;margin:0}.main-timeline .timeline{margin-bottom:70px}.main-timeline .timeline:before{top:0;left:83px;right:0;margin:0}.main-timeline .timeline-icon{width:60px;height:60px;line-height:40px;padding:5px;top:0;left:0}.main-timeline .timeline:nth-child(even) .timeline-icon{left:0;right:auto}.main-timeline .timeline-icon:before,.main-timeline .timeline:nth-child(even) .timeline-icon:before{width:25px;left:auto;right:-25px}.main-timeline .timeline-icon:after,.main-timeline .timeline:nth-child(even) .timeline-icon:after{width:25px;height:30px;top:44px;left:auto;right:-5px}.main-timeline .timeline-icon i{font-size:30px;line-height:45px}.main-timeline .timeline-content,.main-timeline .timeline:nth-child(even) .timeline-content{width:100%;margin-top:-15px;padding-left:130px;padding-right:5px}.main-timeline .timeline:nth-child(even) .timeline-content{float:right}.main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(even) .timeline-content:before{width:50%;left:120px}.main-timeline .timeline:nth-child(even) .timeline-content:before{right:auto;transform:rotateY(0)}.main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(even) .timeline-content:after{left:85px}}@media only screen and (max-width:479px){.main-timeline .timeline-content,.main-timeline .timeline:nth-child(2n) .timeline-content{padding-left:110px}.main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(2n) .timeline-content:before{left:99px}.main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}}.contact{padding:1%}.contact-info{margin-top:10%}.contact-info img{margin-bottom:15%}.contact-info h2{margin-bottom:10%}.contact-form label{font-weight:600}.contact-form button{background:#2ad400;color:#fff;font-weight:600;width:25%}.contact-form button:focus{box-shadow:none}.lds-ring{display:inline-block;position:relative;width:80px;height:80px}.lds-ring div{box-sizing:border-box;display:block;position:absolute;width:64px;height:64px;margin:8px;border:8px solid #fff;border-radius:50%;animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;border-color:#fff transparent transparent transparent}.lds-ring div:nth-child(1){animation-delay:-.45s}.lds-ring div:nth-child(2){animation-delay:-.3s}.lds-ring div:nth-child(3){animation-delay:-.15s}@keyframes lds-ring{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.is-hidden{display:none!important}.boxicons{margin-top:5%;width:100%;height:1px;background-color:#fff;margin-bottom:15px}.head2{color:#fff;background-color:#212020;padding-bottom:3%;padding-top:3%}#infosection{background-color:#f7f7f7;overflow:overlay;box-shadow:0 5px 4px 0 rgb(236 236 236 / 14%)}#aboutus{position:relative;width:100%;height:100%;background-color:#1b1a1a;color:#fff;padding-top:100px;box-shadow:0 2px 4px 0 rgb(23 23 23 / 50%);overflow:overlay}.infoicons{border:solid 1px #5cd822;border-radius:20px;padding:13px}#highlight{background:rgb(0 255 0);padding:0 0;margin:-3px 2px;line-height:1.7;border-radius:5px;display:inline}.infoblocktext{font-size:13pt;font-weight:700}.float{position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#fff;border-radius:50px;text-align:center;font-size:30px;box-shadow:2px 2px 3px #999;z-index:100}.my-float{margin-top:16px}.bg-grey{background:#292929}.logo-footer{margin-bottom:40px}footer{color:grey}a,footer p{font-size:12px;font-family:Roboto,sans-serif}footer h6{font-family:'Playfair Display',serif;margin-bottom:40px;position:relative}footer h6:after{position:absolute;content:"";background:grey;width:12%;height:1px;left:0;bottom:-20px}.btn-footer{color:grey;text-decoration:none;border:1px solid;border-radius:43px;font-size:13px;padding:7px 30px;line-height:47px}.btn-footer:hover{text-decoration:none}.form-footer input[type=text]{border:none;border-radius:16px 0 0 16px;outline:0;padding-left:10px}::placeholder{font-size:10px;padding-left:10px;font-style:italic}.form-footer input[type=button]{border:none;background:#232323;margin-left:-5px;color:#fff;outline:0;border-radius:0 16px 16px 0;padding:2px 12px}.social .fa{color:grey;font-size:22px;padding:10px 15px;background:#3c3c3c}footer ul li{list-style:none;display:block}footer ul{padding-left:0}footer ul li a{text-decoration:none;color:grey;text-decoration:none}a:hover{text-decoration:none;color:#f5f5f5!important}.logo-part{border-right:1px solid grey;height:100%}.hidden{display:none}.carousel-control-prev-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")!important}.carousel-control-next-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")!important}
+  </style>
+
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  </head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!--Cookies Bot-->
+  <script type="text/javascript">
+    var cpm = {};
+    (function(h,u,b){
+    var d=h.getElementsByTagName("script")[0],e=h.createElement("script");
+    e.async=true;e.src='https://cookiehub.net/c2/35b8ab08.js';
+    e.onload=function(){u.cookiehub.load(b);}
+    d.parentNode.insertBefore(e,d);
+    })(document,window,cpm);
+    </script>
+
+  <!--NAVBAR-->  
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: #1b1a1a;" id="topo">
+<div class="container">
+  <a class="navbar-brand" href="#">
+    <amp-img src="static\images\logo-bg-dark.svg" width="110" height="50"></amp-img>
+  </a>
+  <div class="navbar-nav">
+    <a class="nav-link active">(21) 98333-0400</a>
+    <a class="nav-link active">contato@overgrowth.com.br</a>
+    <a class="nav-item nav-link active btn-success text-center" href="clientpage.html">Área do cliente <span class="sr-only">(current)</span></a>
+    </div>
+</div>
+  </nav>
+
+  <!--SECTION 1-->
+  <section id="aboutus">
+    <div class="container mb-5">      
+        <div class="row justify-content-center">
+            <div class="col-sm">
+                <h1 style="font-family: 'Poppins', sans-serif;">Foque no atendimento e na qualidade do seu produto/serviço</h1>
+                <h5 style="font-family: 'Poppins', sans-serif; font-weight: 300;">e deixe a estratégia de captura de novos clientes por nossa conta</h5>
+               <div style="width:150px; height:1px; background-color: white; margin-bottom: 15px;"></div> 
+              </div>
+            <!--FORM-->
+            <div class="col-sm">
+              <div class="col-sm text-center js-success-message is-hidden">
+                 <h3 style="font-family: 'Poppins', sans-serif; color:#5cd822">Formulário enviado! <br>Agradeçemos sua mensagem, responderemos em breve</h3>
+                 <i class="bi bi-check-all" style="font-size: 350%; color: dodgerblue;"></i>
+              </div>               
+              <div class="col-sm text-center js-error-message is-hidden">
+                <h3 style="font-family: 'Poppins', sans-serif; color:#d82222">Houve um erro ao enviar o formulário <br>Por favor entre em contato via e-mail ou WhatsApp</h3>
+                <i class="bi bi-x-circle" style="font-size: 350%; color: rgb(255, 0, 0);"></i>
+             </div>              
+               <form name="submit-to-google-sheet" method='post' >
+                <div class="contact-form">
+                  <div class="form-group">
+                    <label class="control-label col-sm">Seu nome:</label>
+                    <div class="col-sm-7">          
+                    <input type="text" class="form-control" name="fname" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm">CNPJ:</label>
+                    <div class="col-sm-7">          
+                    <input type="text" class="form-control" name="cnpj">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm">Celular:</label>
+                    <div class="col-sm-7">
+                    <input type="phone" class="form-control" name="celular" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm">Email:</label>
+                    <div class="col-sm-7">
+                    <input type="email" class="form-control" name="email" required>
+                    </div>
+                  </div>
+                  <div class="form-group">        
+                    <div class="col-sm-offset-2 col-sm">
+                    <button type="submit" class="btn btn-default">Enviar</button>
+                    </div>
+                  </div>
+                </div>
+                </form> 
+                <div class="loading js-loading is-hidden text-center">
+                  <div class="lds-ring"><div></div></div>
+                </div>
+            </div> 
+            <!--FORM-->
+            </div>
+            <div class="box-icons"></div> 
+                <div class="row justify-content-center mt-4 px-5">
+                      <div class="col-lg text-center mb-2 mx-2 infoicons">
+                        <div>
+                         <i class="fas fa-chart-line" style="font-size: 50px; color: #5cd822;"></i>
+                          <div>Otimização constante das campanhas, seu dinheiro vale ouro para nós. Ele não será desperdiçado</div>
+                        </div>
+                        </div>
+                        <div class="col-lg text-center mx-2 mb-2 infoicons">
+                          <div>
+                            <i class="fas fa-rocket" style="font-size: 50px; color: #5cd822"></i>
+                            <div >Foco 100% na geração dos resultados que sua empresa precisa para crescer</div>
+                          </div>
+                          </div>
+                          <div class="col-lg text-center mx-2 mb-2 infoicons">
+                            <div>
+                              <i class="fas fa-magnet " style="font-size: 50px; color: #5cd822; transform:rotate(45deg)"></i>
+                              <div >Atraímos as pessoas certas em volume para o seu negócio</div>
+                            </div>
+                  </div>
+              </div>
+              <div class="row justify-content-center mt-2 px-5">
+                <div class="col-lg text-center mx-2 mb-2 infoicons">
+                  <div>
+                    <i class="fas fa-chess-knight" style="font-size: 50px; color: #5cd822"></i>
+                    <div >Estratégias desenvolvidas do zero, totalmente personalizadas para o seu negócio</div>
+                  </div>
+                  </div>
+                  <div class="col-lg text-center mx-2 mb-2 infoicons">
+                    <div>
+                      <i class="fas fa-users-cog" style="font-size: 50px; color: #5cd822"></i>
+                      <div >Trabalhamos junto com a sua equipe para otimizar as vendas</div>
+                    </div>
+                    </div>
+                    <div class="col-lg text-center mx-2 mb-2 infoicons">
+                      <div>
+                        <i class="far fa-clipboard" style="font-size: 50px; color: #5cd822"></i>
+                        <div >Relatórios frequentes do desempenho das estratégias</div>
+                      </div>
+                      </div>
+              </div>
+        </div>
+</section>   
+  <!--SECTION 2-->
+  <section class="head2">
+    <div class="container">
+      <h3 style="font-weight:700; color: rgb(0, 255, 55)" >Likes e comentários nem sempre dão resultado!</h3>
+      <p style="font-size: 14pt; font-weight:500; color: darkgrey;"><span style="color: #ffffff">É necessários atrair as pessoas certas para que os likes e comentários tenham valor para sua empresa.</span> Por isso não vemos valor em te empurrar um pacote fechado de 3/4 posts semanais, assim como agências de marketing comumente fazem, nem prometer números mágicos ou fórmulas de crescimento. Somos uma empresa focada em resultados, trabalhamos para fazer o seu negócio vender cada vez mais e crescer de forma estruturada com estratégia e dedicação</p>
+      <div style="width:150px; height:1px; background-color: rgb(0, 255, 55); margin-bottom: 15px;"></div> 
+    </div>
+
+  <!--SECTION 2-->
+    <div class="container mt-5">
+        <div class="row justify-content-right">
+          <div class="col-sm">
+            <amp-img src="static\images\29.svg" layout="responsive" width="266" height="150"></amp-img>
+        </div>
+            <div class="col-sm">
+                <h1 style="font-family: 'Poppins', sans-serif;">Como a overgrowth pode ajudar sua <span id="highlight" style="color: #1b1a1a; font-weight: 700;">empresa</span></h1>
+                <ul style="font-family: 'Roboto', sans-serif;">
+                  <li style="font-weight:600">Economia de tempo</li>
+                  <p style="font-size: 11pt; color:darkgrey">Você e sua equipe devem se preocupar exclusivamente com o desenvolvimento do seu negócio, a conquista de novos clientes pode deixar com a gente.</p>
+                  <li style="font-weight:600">Captação de clientes</li>
+                  <p style="font-size: 11pt; color:darkgrey">Encontramos o público-alvo que trás mais resultado para a sua empresa e mostramos os anúncios certos para impactar ele positivamente e capta-lo.</p>
+                  <li style="font-weight:600">Mensuração de resultados</li>
+                  <p style="font-size: 11pt; color:darkgrey">Com a OverGrowth não exitem achismos, nós conseguimos mensurar com extrema precisão todos os resultados que forem propostos, tendo inclusive a previsibilidade de resultados futuros.</p>
+                </ul>
+            </div>
+        </div>
+      </section>
+  <!--SECTION 3-->
+      <section id="infosection">
+        <div class="container" id="atr" style="margin-bottom: 6%; margin-top: 0%; padding-bottom: 2%;">              
+              <div class="row justify-content-center mt-5">
+                <h4 style="color: #000000; margin-top: 2%; margin-bottom: 2%;">FECHAMOS PARCERIA. O QUE ACONTECE AGORA?</h4>   
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <a class="timeline">
+                            <div class="timeline-icon"><i class="fas fa-clipboard-list"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Briefing</h3>
+                                <p class="description">
+                                  Para entender melhor seu negócio, seu público e suas necessidades você receberá um questionário com perguntas totalmente focadas no seu negócio, afim de termos o máximo de informações para executar a fase de elaboração das estratégias</p>
+                            </div>
+                        </a>
+                        <a class="timeline">
+                            <div class="timeline-icon"><i class="fas fa-search"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Elaboração das estratégias</h3>
+                                <p class="description">
+                                  Após o preenchimento do questionário, analisaremos cada ponto com total atenção, elaboraremos um estudo aprofundado do seu mercado e desenvolveremos as estratégias para alcançar seus objetivos
+                                </p>
+                            </div>
+                        </a>
+                        <a class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Apresentação das estratégias</h3>
+                                <p class="description">
+                                  Nesta etapa, faremos uma reunião para mostrar tudo o que aprendemos sobre seu mercado, apresentar as estratégias elaboradas, explicar os fundamentos de cada ação que tomaremos, alinhar expectativas de resultado e caso tudo seja aprovado, partiremos para a próxima etapa                                </p>
+                            </div>
+                        </a>
+                        <a class="timeline">
+                            <div class="timeline-icon"><i class="fas fa-infinity"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Execução e otimização</h3>
+                                <p class="description">
+                                  Por fim, a parte mais importante: execução. Papel e planilha aceitam tudo, apenas pondo em prática e observando os resultados que teremos os dados necessários para otimizar as campanhas que estão dando certo e mudar as estratégias das campanhas que estão dando errado. Essa etapa é uma constante, estaremos a todo momento otimizando boas campanhas e testando novas estratégias, sempre em colaboração com sua empresa, atendendo suas necessidades                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+             </div>         
+        </div>
+      </section>
+  <!--SECTION 3-->
+
+
+  <!--SECTION 4-->
+  <section id="company" style="color:white;padding-top: 2%;padding-bottom: 1%;background-color: #1b1a1a; margin-bottom: 15px;box-shadow: 0 3px 4px 0 rgb(0 0 0 / 41%);">
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-sm">
+                <h1 style="font-family: 'Poppins', sans-serif;">Por quê a OverGrowth</h1>
+                <p style="font-family: 'Roboto', sans-serif; font-weight: 500; color: darkgrey">Todo mundo já entendeu que precisa estar na internet, mas pouquíssimos negócios de fato investem tempo e dinheiro da forma certa para gerar resultados no meio digital. 
+                  A OverGrowth surgiu para atender essa necessidade. Levando o nome da empresa ao pé da letra, nossa missão é proporcionar um crescimento excessivo e estruturado à todos nossos parceiros. 
+                  <br>Através da análise de dados sobre o público, mercado e concorrentes nós conseguimos elaborar, executar e otimizar estratégias de marketing para que a sua empresa esteja sempre a frente dos concorrentes.</p>
+            </div>
+            <div class="col-sm">
+                <amp-img src="static\images\head-image.svg" layout="responsive" width="350px" height="250px"></amp-img>
+            </div>
+        </div>
+    </div>  
+</section>   
+  <!--SECTION 4-->
+
+  <!--CONTACT US-->
+  <section>
+    <div class="container my-2">
+      <div class="row align-items-center">
+        <div class="col-md-3">
+          <div>
+            <h5>Quer receber uma consultoria <span style="color:rgb(0, 206, 0)">gratuita</span> de 30 minutos 100% personalizada?</h5>
+            <p>Clique no botão para entrar em contato conosco ou nos envie um e-mail ou WhatsApp.</p>        
+          </div> 
+        <a class="btn btn-success mb-4" href="#topo" role="button">Quero uma consultoria grátis</a>
+        <div class="row">
+          <div class="col">
+          <a href="mailto:contato@overgrowth.com.br"><i class="fas fa-envelope mr-3" style="color: red;font-size: 35px;"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5521983330400&text=Olá, gostaria de falar um pouco sobre minha empresa e saber como vocês podem me ajudar."><i class="fab fa-whatsapp" style="color: rgb(0, 206, 0);font-size: 35px;"></i></a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <amp-img src="static/images/anim.svg" layout="responsive" width="266" height="150"></amp-img>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!--CONTACT US-->
+
+   <!--Form js-->
+   <script>    
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzegPIC3zX6A-nRm29FBhRq2cBmh73T8i88sDIpZ4T3_0rdVH3Z/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const loading = document.querySelector('.js-loading')
+    const successMessage = document.querySelector('.js-success-message')
+    const errorMessage = document.querySelector('.js-error-message')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      showLoadingIndicator()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => showSuccessMessage(response))
+        .catch(error => showErrorMessage(error))
+    })
+
+    function showLoadingIndicator () {
+      form.classList.add('is-hidden')
+      loading.classList.remove('is-hidden')
+    }
+
+    function showSuccessMessage (response) {
+      console.log('Success!', response)
+      setTimeout(() => {
+        successMessage.classList.remove('is-hidden')
+        loading.classList.add('is-hidden')
+      }, 500)
+    }
+
+    function showErrorMessage (error) {
+      console.error('Error!', error.message)
+      setTimeout(() => {
+        errorMessage.classList.remove('is-hidden')
+        loading.classList.add('is-hidden')
+      }, 500)
+    }
+  </script>
+
+</body>
+
+<footer class="container-fluid bg-grey pb-2 pt-5">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-6">
+             <div class="row">
+                <div class="col-md-6 ">
+                   <div class="logo-part">
+                      <amp-img src="static\images\logo-bg-dark.svg" class="w-50 logo-footer" layout="responsive" width="266" height="150"></amp-img>   
+                      <p>CNPJ 41.174.779/0001-49</p>
+                      <p>Empresa no ramo do marketing digital, lançamentos e gestão de tráfego</p>
+                   </div>
+                </div>
+                <div class="col-md-6 px-4">
+                  <h5>Contatos</h5>
+                  <p>E-mail: contato@overgrowth.com.br</p>
+                  <p>Telefone: (21) 98333-0400</p>
+                   <p style="font-family: 'Poppins', sans-serif; font-size: 6pt">Business vector created by stories - www.freepik.com<br>Grow vector created by stories - www.freepik.com</p>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <p class="text-center">Copyright ® - OverGrowth Company 2021</p>
+    </div>
+  </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</html>
